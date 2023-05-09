@@ -1,0 +1,5 @@
+N:/Development/Dev_Base/basis_universal-cmake/msvc_temp/CMakeFiles/basisu_lib.dir
+N:/Development/Dev_Base/basis_universal-cmake/msvc_temp/CMakeFiles/INSTALL.dir
+N:/Development/Dev_Base/basis_universal-cmake/msvc_temp/CMakeFiles/basisu.dir
+N:/Development/Dev_Base/basis_universal-cmake/msvc_temp/CMakeFiles/ALL_BUILD.dir
+N:/Development/Dev_Base/basis_universal-cmake/msvc_temp/CMakeFiles/ZERO_CHECK.dir
