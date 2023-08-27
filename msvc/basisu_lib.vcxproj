@@ -145,7 +145,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\transcoder;..\encoder;..\OpenCL;..\..\$(ZSTD_DIR)\lib;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\transcoder;..\encoder;..\OpenCL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -155,7 +155,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;BASISU_SUPPORT_SSE=1;BASISU_SUPPORT_OPENCL=1;BASISD_SUPPORT_KTX2_ZSTD=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BASISU_SUPPORT_SSE=1;BASISU_SUPPORT_OPENCL=1;BASISD_SUPPORT_KTX2_ZSTD=0;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
@@ -176,7 +176,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\transcoder;..\encoder;..\OpenCL;..\..\$(ZSTD_DIR)\lib;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\transcoder;..\encoder;..\OpenCL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -186,7 +186,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;BASISU_SUPPORT_SSE=1;BASISU_SUPPORT_OPENCL=1;BASISD_SUPPORT_KTX2_ZSTD=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BASISU_SUPPORT_SSE=1;BASISU_SUPPORT_OPENCL=1;BASISD_SUPPORT_KTX2_ZSTD=0;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
@@ -238,7 +238,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\transcoder;..\encoder;..\OpenCL;..\..\$(ZSTD_DIR)\lib;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\transcoder;..\encoder;..\OpenCL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -246,7 +246,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;BASISU_SUPPORT_SSE=1;BASISU_SUPPORT_OPENCL=1;NDEBUG;BASISD_SUPPORT_KTX2_ZSTD=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BASISU_SUPPORT_SSE=1;BASISU_SUPPORT_OPENCL=1;NDEBUG;BASISD_SUPPORT_KTX2_ZSTD=0;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
@@ -269,7 +269,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\transcoder;..\encoder;..\OpenCL;..\..\$(ZSTD_DIR)\lib;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\transcoder;..\encoder;..\OpenCL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -277,7 +277,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;BASISU_SUPPORT_SSE=1;BASISU_SUPPORT_OPENCL=1;NDEBUG;BASISD_SUPPORT_KTX2_ZSTD=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BASISU_SUPPORT_SSE=1;BASISU_SUPPORT_OPENCL=1;NDEBUG;BASISD_SUPPORT_KTX2_ZSTD=0;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
